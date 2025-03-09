@@ -1,0 +1,39 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.cache
+*.swp
+*.swo
+
+# Ignore PHPStorm/IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore Composer dependencies
+/vendor/
+/composer.lock
+/composer.phar
+
+# Ignore Laravel or Symfony caches (if applicable)
+bootstrap/cache/
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+# Ignore build and output directories
+/public/storage
+/.env
+
+# Ignore temporary files
+*.txt
+
+# Ignore .gitignore file itself
+!.gitignore
